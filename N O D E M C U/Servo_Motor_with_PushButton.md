@@ -12,34 +12,34 @@
 ## Here is the code of the Servo Motor
 
 ```c++
-#include<ESP32Servo.h>
+#include <ESP32Servo.h>
 Servo myservo;
 int pos = 0;
+
 void setup() {
-  myservo.attach(21);
+  myservo.attach(21);        // Attach servo to pin 21
   pinMode(5, INPUT_PULLUP);
   pinMode(18, INPUT_PULLUP);
-  Serial.begin(9600);
+  Serial.begin(9600);        // Start serial communication with the serial monitor at a baud rate of 9600.
 }
 
 void loop() {
-  if(digitalRead(5) == LOW)
-  {
-    pos++;
-    Serial.println(pos);
-    myservo.write(pos);
-    delay(15);
-    if(pos>=180){
-      pos=180;
+  if (digitalRead(5) == LOW) {
+    pos++;                    // Increment servo position
+    Serial.println(pos);      // Print current position
+    myservo.write(pos);       // Move servo
+    delay(15);               
+    if (pos >= 180) {
+      pos = 180;              // Limit max position
     }
   }
-  if(digitalRead(18) == LOW){
-    pos--;
-    Serial.println(pos);
-    myservo.write(pos);
-    delay(15);
-    if(pos<=0){
-      pos=0;
+  if (digitalRead(18) == LOW) {
+    pos--;                    // Decrement servo position
+    Serial.println(pos);      // Print current position
+    myservo.write(pos);       // Move servo
+    delay(15);             
+    if (pos <= 0) {
+      pos = 0;                // Limit min position
     }
   }
 }
