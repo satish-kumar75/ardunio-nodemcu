@@ -6,7 +6,7 @@ _____
 
 ------
 
-[Live Simulation](https://www.tinkercad.com/things/66shgoBClfo-copy-of-arduino-lcd-display/editel "https://www.tinkercad.com/things/66shgoBClfo-copy-of-arduino-lcd-display/editel")
+[Live Simulation](https://www.tinkercad.com/things/66shgoBClfo "https://www.tinkercad.com/things/66shgoBClfo")
 
 -----
 
