@@ -11,7 +11,7 @@ https://github.com/SatishKumar75/ardunio-nodemcu/assets/106571472/3714335b-97b0-
 
 -----
 
-## This is the code of the Printing the ASCAII Values of all the Small letters
+# Code
 ```c++
 #include <Servo.h>
 #include <LiquidCrystal.h>
