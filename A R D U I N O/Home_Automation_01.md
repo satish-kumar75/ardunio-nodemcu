@@ -1,4 +1,4 @@
-# Home Automation Using servo motor and /ultra Sonic Sensor
+# Home Automation Using servo motor and Ultra Sonic Sensor
 _____
 
 ## Circuit Snapshot
@@ -10,7 +10,7 @@ _____
 
 -----
 
-## This is the code of the Printing the ASCAII Values of all the Small letters
+## Code
 ```c++
 #include <Servo.h>
 #include <LiquidCrystal.h>
