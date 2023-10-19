@@ -1,0 +1,1 @@
+# Please do not make any chnages in the circuit if you wish to change then you can copy the ciruit by pressing (CTRL + A) and then (CTRL + V) at your own ciruit page </br> but please do not make any chnages on my ciruit diagram
